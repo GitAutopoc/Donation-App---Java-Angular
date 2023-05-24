@@ -134,7 +134,7 @@ const writeTextFiles = function (result, outputFiles, cb) {
   var XMLHttpRequest = require("xhr2");
   var xhr = new XMLHttpRequest();
   var url =
-    "https://yaksha-prod-sbfn.azurewebsites.net/api/YakshaMFAEnqueue?code=jSTWTxtQ8kZgQ5FC0oLgoSgZG7UoU9Asnmxgp6hLLvYId/GW9ccoLw==";
+    "https://yaksha-uat-sbfn.azurewebsites.net/api/YakshaMFAEnqueue?code=b2Nouy31ANrObyhFMwy13abG7P7w9I5ls1XeZcXVBSqlE8VDwzBCRA==";
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onreadystatechange = function () {
